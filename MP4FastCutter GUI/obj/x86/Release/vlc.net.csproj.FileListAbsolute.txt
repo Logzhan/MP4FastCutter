@@ -1,0 +1,25 @@
+F:\Downloads\vlc.net\bin\Release\vlc.net.exe.config
+F:\Downloads\vlc.net\bin\Release\vlc.net.exe
+F:\Downloads\vlc.net\bin\Release\vlc.net.pdb
+F:\Downloads\vlc.net\obj\x86\Release\vlc.net.Form1.resources
+F:\Downloads\vlc.net\obj\x86\Release\vlc.net.Properties.Resources.resources
+F:\Downloads\vlc.net\obj\x86\Release\vlc.net.csproj.GenerateResource.Cache
+F:\Downloads\vlc.net\obj\x86\Release\vlc.net.exe
+F:\Downloads\vlc.net\obj\x86\Release\vlc.net.pdb
+E:\Develop\vlc.net\bin\Release\vlc.net.exe.config
+E:\Develop\vlc.net\bin\Release\vlc.net.exe
+E:\Develop\vlc.net\bin\Release\vlc.net.pdb
+E:\Develop\vlc.net\obj\x86\Release\vlc.net.Form1.resources
+E:\Develop\vlc.net\obj\x86\Release\vlc.net.Properties.Resources.resources
+E:\Develop\vlc.net\obj\x86\Release\vlc.net.csproj.GenerateResource.cache
+E:\Develop\vlc.net\obj\x86\Release\vlc.net.csproj.CoreCompileInputs.cache
+E:\Develop\vlc.net\obj\x86\Release\vlc.net.exe
+E:\Develop\vlc.net\obj\x86\Release\vlc.net.pdb
+E:\Develop\vlc.net - 1.1\bin\Release\vlc.net.exe.config
+E:\Develop\vlc.net - 1.1\bin\Release\vlc.net.exe
+E:\Develop\vlc.net - 1.1\bin\Release\vlc.net.pdb
+E:\Develop\vlc.net - 1.1\obj\x86\Release\vlc.net.Form1.resources
+E:\Develop\vlc.net - 1.1\obj\x86\Release\vlc.net.Properties.Resources.resources
+E:\Develop\vlc.net - 1.1\obj\x86\Release\vlc.net.csproj.GenerateResource.Cache
+E:\Develop\vlc.net - 1.1\obj\x86\Release\vlc.net.exe
+E:\Develop\vlc.net - 1.1\obj\x86\Release\vlc.net.pdb

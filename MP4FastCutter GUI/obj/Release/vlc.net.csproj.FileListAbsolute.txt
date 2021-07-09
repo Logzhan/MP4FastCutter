@@ -1,0 +1,9 @@
+E:\Develop\vlc.net - 1.1\bin\Release\vlc.net.exe.config
+E:\Develop\vlc.net - 1.1\bin\Release\vlc.net.exe
+E:\Develop\vlc.net - 1.1\bin\Release\vlc.net.pdb
+E:\Develop\vlc.net - 1.1\obj\Release\vlc.net.Form1.resources
+E:\Develop\vlc.net - 1.1\obj\Release\vlc.net.Properties.Resources.resources
+E:\Develop\vlc.net - 1.1\obj\Release\vlc.net.csproj.GenerateResource.cache
+E:\Develop\vlc.net - 1.1\obj\Release\vlc.net.csproj.CoreCompileInputs.cache
+E:\Develop\vlc.net - 1.1\obj\Release\vlc.net.exe
+E:\Develop\vlc.net - 1.1\obj\Release\vlc.net.pdb

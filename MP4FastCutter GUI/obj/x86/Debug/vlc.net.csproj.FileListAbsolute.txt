@@ -1,0 +1,17 @@
+F:\Downloads\vlc.net\bin\Debug\vlc.net.exe.config
+F:\Downloads\vlc.net\bin\Debug\vlc.net.exe
+F:\Downloads\vlc.net\bin\Debug\vlc.net.pdb
+F:\Downloads\vlc.net\obj\x86\Debug\vlc.net.csprojResolveAssemblyReference.cache
+F:\Downloads\vlc.net\obj\x86\Debug\vlc.net.Form1.resources
+F:\Downloads\vlc.net\obj\x86\Debug\vlc.net.Properties.Resources.resources
+F:\Downloads\vlc.net\obj\x86\Debug\vlc.net.csproj.GenerateResource.Cache
+F:\Downloads\vlc.net\obj\x86\Debug\vlc.net.exe
+F:\Downloads\vlc.net\obj\x86\Debug\vlc.net.pdb
+E:\Develop\vlc.net\bin\Debug\vlc.net.exe.config
+E:\Develop\vlc.net\bin\Debug\vlc.net.exe
+E:\Develop\vlc.net\bin\Debug\vlc.net.pdb
+E:\Develop\vlc.net\obj\x86\Debug\vlc.net.Form1.resources
+E:\Develop\vlc.net\obj\x86\Debug\vlc.net.Properties.Resources.resources
+E:\Develop\vlc.net\obj\x86\Debug\vlc.net.csproj.GenerateResource.Cache
+E:\Develop\vlc.net\obj\x86\Debug\vlc.net.exe
+E:\Develop\vlc.net\obj\x86\Debug\vlc.net.pdb

@@ -1,0 +1,22 @@
+E:\Develop\vlc.net - 1.1\bin\Debug\mp4Cutter.exe.config
+E:\Develop\vlc.net - 1.1\bin\Debug\mp4Cutter.exe
+E:\Develop\vlc.net - 1.1\bin\Debug\mp4Cutter.pdb
+E:\Develop\vlc.net - 1.1\bin\Debug\UserControls.dll
+E:\Develop\vlc.net - 1.1\bin\Debug\UserControls.pdb
+E:\Develop\vlc.net - 1.1\obj\x86\Debug\mp4CutterMain.csprojResolveAssemblyReference.cache
+E:\Develop\vlc.net - 1.1\obj\x86\Debug\mp4Cutter.MainForm.resources
+E:\Develop\vlc.net - 1.1\obj\x86\Debug\mp4Cutter.Properties.Resources.resources
+E:\Develop\vlc.net - 1.1\obj\x86\Debug\mp4CutterMain.csproj.GenerateResource.Cache
+E:\Develop\vlc.net - 1.1\obj\x86\Debug\mp4Cutter.exe
+E:\Develop\vlc.net - 1.1\obj\x86\Debug\mp4Cutter.pdb
+E:\Develop\mp4Cutter 1.0.0\bin\Debug\mp4Cutter.exe.config
+E:\Develop\mp4Cutter 1.0.0\obj\x86\Debug\mp4Cutter.exe
+E:\Develop\mp4Cutter 1.0.0\obj\x86\Debug\mp4Cutter.pdb
+E:\Develop\mp4Cutter 1.0.0\bin\Debug\mp4Cutter.exe
+E:\Develop\mp4Cutter 1.0.0\bin\Debug\mp4Cutter.pdb
+E:\Develop\mp4Cutter 1.0.0\bin\Debug\UserControls.dll
+E:\Develop\mp4Cutter 1.0.0\bin\Debug\UserControls.pdb
+E:\Develop\mp4Cutter 1.0.0\obj\x86\Debug\mp4CutterMain.csprojResolveAssemblyReference.cache
+E:\Develop\mp4Cutter 1.0.0\obj\x86\Debug\mp4Cutter.MainForm.resources
+E:\Develop\mp4Cutter 1.0.0\obj\x86\Debug\mp4Cutter.Properties.Resources.resources
+E:\Develop\mp4Cutter 1.0.0\obj\x86\Debug\mp4CutterMain.csproj.GenerateResource.Cache

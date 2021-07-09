@@ -1,0 +1,5 @@
+E:\Develop\vlc.net - 1.1\UserControlsBar\bin\Debug\UserControls.dll
+E:\Develop\vlc.net - 1.1\UserControlsBar\bin\Debug\UserControls.pdb
+E:\Develop\vlc.net - 1.1\UserControlsBar\obj\Debug\UserControls.csprojResolveAssemblyReference.cache
+E:\Develop\vlc.net - 1.1\UserControlsBar\obj\Debug\UserControls.dll
+E:\Develop\vlc.net - 1.1\UserControlsBar\obj\Debug\UserControls.pdb
