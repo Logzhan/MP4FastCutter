@@ -1,0 +1,9 @@
+E:\Develop\vlc.net - 1.1\DemoControls\bin\Release\UserControls.dll
+E:\Develop\vlc.net - 1.1\DemoControls\bin\Release\UserControls.pdb
+E:\Develop\vlc.net - 1.1\DemoControls\obj\Release\UserControls.dll
+E:\Develop\vlc.net - 1.1\DemoControls\obj\Release\UserControls.pdb
+E:\Develop\mp4Cutter 1.0.0\UserControlsBar\bin\Release\UserControls.dll
+E:\Develop\mp4Cutter 1.0.0\UserControlsBar\bin\Release\UserControls.pdb
+E:\Develop\mp4Cutter 1.0.0\UserControlsBar\obj\Release\UserControls.csproj.CoreCompileInputs.cache
+E:\Develop\mp4Cutter 1.0.0\UserControlsBar\obj\Release\UserControls.dll
+E:\Develop\mp4Cutter 1.0.0\UserControlsBar\obj\Release\UserControls.pdb

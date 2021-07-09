@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LESLIEFramework.FORM</name>
+    </assembly>
+    <members>
+        <member name="T:LESLIEFramework.FORM.LESLIE_FORM">
+            <summary>
+            LESLIE_FORM
+            </summary>
+        </member>
+        <member name="M:LESLIEFramework.FORM.LESLIE_FORM.Fix(System.Boolean,System.IntPtr)">
+            <summary>
+            是否固定窗体位置
+            </summary>
+            <param name="b">false:不固定；true:固定</param>
+            <param name="hwnd">窗体Handle</param> 
+        </member>
+        <member name="M:LESLIEFramework.FORM.LESLIE_FORM.SetHintText(System.IntPtr,System.String)">
+            <summary>
+            在单行TextBox上设置提示文本
+            </summary>
+            <param name="hWnd">控件Handle</param>
+            <param name="sHintString">提示文本</param>
+        </member>
+        <member name="M:LESLIEFramework.FORM.LESLIE_FORM.ScrollLine(System.IntPtr,System.Int32)">
+            <summary>
+            以行为单位使多行TextBox左右或上下滚动
+            </summary>
+            <param name="hWnd">控件Handle</param>
+            <param name="iScrollLines">待滚动行数。（正数/负数：向下滚动n行/向上滚动n行）</param>
+        </member>
+        <member name="M:LESLIEFramework.FORM.LESLIE_FORM.HideCaret2(System.IntPtr)">
+            <summary>
+            隐藏输入光标
+            </summary>
+            <param name="hWnd">控件Handle</param>
+        </member>
+        <member name="M:LESLIEFramework.FORM.LESLIE_FORM.GetLongPath(System.String)">
+            <summary>
+            8.3命名规则｜将短路径转换为长路径
+            <para>
+            关联文件后打开的路径是短路径，即8.3命名规则。虽然可以正常使用该路径，但如果需要路径截取时，便需要转换为正常的长路径。
+            </para>
+            </summary>
+            <param name="shortPath">短路径 (~1).</param>
+            <returns>长路径</returns>
+        </member>
+        <member name="M:LESLIEFramework.FORM.LESLIE_FORM.SendMsgStr(System.String,System.String)">
+            <summary>
+            进程间通信（支持传输字符串）
+            <para>
+            示例代码请见LESLIEFramework.xml
+            </para>
+            </summary>
+            <param name="sProcessName">接收端程序名（无扩展名）</param>
+            <param name="sMsg">待传消息</param>
+            <example>接收端处理消息方法：
+            <code>
+            public struct COPYDATASTRUCT
+            {
+               public IntPtr dwData;
+               public int cbData;
+               [MarshalAs(UnmanagedType.LPStr)]
+               public string lpData;
+            }
+            
+            //const int WM_COPYDATA = 0x004A;
+            
+            protected override void DefWndProc(ref System.Windows.Forms.Message m)
+            {
+               switch (m.Msg)
+               {
+                   //case WM_COPYDATA:
+                   case 0x004A:
+                       COPYDATASTRUCT myStr = new COPYDATASTRUCT();
+                       Type myType = myStr.GetType();
+                       myStr = (COPYDATASTRUCT)m.GetLParam(myType);    //m中获取LParam参数以myType类型的方式，让后转换问结构体。
+                       
+                       //处理接收到的数据
+                       label1.Text = myStr.lpData;
+                       
+                       break;
+                   default:
+                       base.DefWndProc(ref m);
+                       break;
+               }
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:LESLIEFramework.FORM.LESLIE_FORM.SendMsgHandle(System.IntPtr,System.String)">
+            <summary>
+            进程间通信（通过句柄方法）
+            <para>
+            在SendMsgStr方法不能使用时使用本方法。
+            </para>
+            <para>
+            比如在ShowInTaskBar=false时。
+            </para>
+            </summary>
+            <param name="hWnd">接收窗体句柄</param>
+            <param name="sMsg">待传消息</param>
+        </member>
+        <member name="M:LESLIEFramework.FORM.LESLIE_FORM.CloseButtonDisabled(System.IntPtr)">
+            <summary>
+            使窗体关闭按钮变灰不可用
+            </summary>
+            <param name="hWnd">窗体句柄</param>
+        </member>
+    </members>
+</doc>

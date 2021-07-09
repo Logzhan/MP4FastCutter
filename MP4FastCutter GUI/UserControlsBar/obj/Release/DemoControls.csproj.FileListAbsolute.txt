@@ -1,0 +1,5 @@
+E:\Develop\vlc.net - 1.1\DemoControls\bin\Release\DemoControls.dll
+E:\Develop\vlc.net - 1.1\DemoControls\bin\Release\DemoControls.pdb
+E:\Develop\vlc.net - 1.1\DemoControls\obj\Release\DemoControls.csprojResolveAssemblyReference.cache
+E:\Develop\vlc.net - 1.1\DemoControls\obj\Release\DemoControls.dll
+E:\Develop\vlc.net - 1.1\DemoControls\obj\Release\DemoControls.pdb
