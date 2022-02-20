@@ -58,3 +58,18 @@ F:\Soft Project\MP4 Fast Cutter v1.0.1\Mp4 Fast Cutter GUI 1.0.3\obj\x64\Release
 F:\Soft Project\MP4 Fast Cutter v1.0.1\Mp4 Fast Cutter GUI 1.0.3\obj\x64\Release\mp4Cutter.Properties.Resources.resources
 F:\Soft Project\MP4 Fast Cutter v1.0.1\Mp4 Fast Cutter GUI 1.0.3\obj\x64\Release\mp4CutterMain.csproj.GenerateResource.Cache
 F:\Soft Project\MP4 Fast Cutter v1.0.1\Mp4 Fast Cutter GUI 1.0.3\obj\x64\Release\mp4CutterMain.csprojResolveAssemblyReference.cache
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\bin\x64\Release\mp4Cutter.exe.config
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\bin\x64\Release\mp4Cutter.exe
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\bin\x64\Release\mp4Cutter.pdb
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\bin\x64\Release\SkinForm.dll
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\bin\x64\Release\UserControls.dll
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\bin\x64\Release\UserControls.pdb
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\obj\x64\Release\mp4Cutter.AboutForm.resources
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\obj\x64\Release\mp4Cutter.MainForm.resources
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\obj\x64\Release\mp4Cutter.Properties.Resources.resources
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\obj\x64\Release\mp4CutterMain.csproj.GenerateResource.cache
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\obj\x64\Release\mp4CutterMain.csproj.CoreCompileInputs.cache
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\obj\x64\Release\mp4CutterMain.csproj.CopyComplete
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\obj\x64\Release\mp4Cutter.exe
+d:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\obj\x64\Release\mp4Cutter.pdb
+D:\Playcooler\05-projects\VisualStudio\004-mp4cutter\MP4FastCutter\MP4FastCutter GUI\obj\x64\Release\mp4CutterMain.csprojAssemblyReference.cache

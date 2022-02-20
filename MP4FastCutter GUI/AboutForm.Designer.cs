@@ -39,23 +39,25 @@
             // AboutText
             // 
             this.AboutText.AutoSize = true;
-            this.AboutText.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.AboutText.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.AboutText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.AboutText.Location = new System.Drawing.Point(10, 7);
+            this.AboutText.Location = new System.Drawing.Point(8, 6);
+            this.AboutText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AboutText.Name = "AboutText";
-            this.AboutText.Size = new System.Drawing.Size(69, 20);
+            this.AboutText.Size = new System.Drawing.Size(35, 17);
             this.AboutText.TabIndex = 0;
-            this.AboutText.Text = "版本信息";
+            this.AboutText.Text = "Help";
             this.AboutText.Click += new System.EventHandler(this.label1_Click);
             // 
             // VersionContentText
             // 
             this.VersionContentText.AutoSize = true;
-            this.VersionContentText.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.VersionContentText.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.VersionContentText.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.VersionContentText.Location = new System.Drawing.Point(54, 76);
+            this.VersionContentText.Location = new System.Drawing.Point(40, 61);
+            this.VersionContentText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.VersionContentText.Name = "VersionContentText";
-            this.VersionContentText.Size = new System.Drawing.Size(0, 20);
+            this.VersionContentText.Size = new System.Drawing.Size(0, 17);
             this.VersionContentText.TabIndex = 1;
             // 
             // btnClose
@@ -63,9 +65,10 @@
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Image = global::mp4Cutter.Properties.Resources.btn_close_18px_1;
-            this.btnClose.Location = new System.Drawing.Point(320, 3);
+            this.btnClose.Location = new System.Drawing.Point(240, 2);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(36, 18);
+            this.btnClose.Size = new System.Drawing.Size(27, 14);
             this.btnClose.TabIndex = 3;
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -75,9 +78,10 @@
             this.MainPanel.Controls.Add(this.labelVersion);
             this.MainPanel.Controls.Add(this.AboutText);
             this.MainPanel.Controls.Add(this.btnClose);
-            this.MainPanel.Location = new System.Drawing.Point(-3, 2);
+            this.MainPanel.Location = new System.Drawing.Point(-2, 2);
+            this.MainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(360, 234);
+            this.MainPanel.Size = new System.Drawing.Size(270, 202);
             this.MainPanel.TabIndex = 4;
             this.MainPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MainPanel_MouseDown);
             this.MainPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MainPanel_MouseMove);
@@ -85,24 +89,26 @@
             // labelVersion
             // 
             this.labelVersion.AutoSize = true;
-            this.labelVersion.Font = new System.Drawing.Font("微软雅黑", 8F);
+            this.labelVersion.Font = new System.Drawing.Font("Microsoft YaHei", 8F);
             this.labelVersion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.labelVersion.Location = new System.Drawing.Point(33, 59);
+            this.labelVersion.Location = new System.Drawing.Point(25, 47);
+            this.labelVersion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(70, 20);
+            this.labelVersion.Size = new System.Drawing.Size(55, 16);
             this.labelVersion.TabIndex = 4;
             this.labelVersion.Text = "labelText";
             // 
             // AboutForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(68)))), ((int)(((byte)(68)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(357, 256);
+            this.ClientSize = new System.Drawing.Size(268, 205);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.VersionContentText);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AboutForm";
             this.Text = "关于";
             this.Load += new System.EventHandler(this.AboutForm_Load);
