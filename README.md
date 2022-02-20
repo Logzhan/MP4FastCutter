@@ -1,6 +1,7 @@
 # Video Splitter
 
-## Add features:
-### Use ffmpeg
-### More video typs supported by ffmpeg.
+## Features:
+- Use ffmpeg
+- More video typs supported by ffmpeg.
+- Multi-tasks list and proccessing.
 
