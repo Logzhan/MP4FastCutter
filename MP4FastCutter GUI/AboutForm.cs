@@ -48,9 +48,8 @@ namespace mp4Cutter
             this.StartPosition = FormStartPosition.Manual; //窗体的位置由Location属性决定
             this.Location = (Point)new Size(x, y);         //窗体的起始位置为(x,y)
 
-            string text = "1.增加了菜单栏功能选项\n2.增加文件剪切时类型检测\n3.优化按键外观\n";
-            string author = "4.Contact:719901725@qq.com\n";
-            labelVersion.Text = text + author;
+            labelVersion.Text = "Variables in FFmpeg parameters:\n    -ss <ss>\n    -t <t>\n    -progress <logfile>\n\n\nVersion: 2.0.0\nBuild-time: 2022-02-20";
+    
         }
 
     }

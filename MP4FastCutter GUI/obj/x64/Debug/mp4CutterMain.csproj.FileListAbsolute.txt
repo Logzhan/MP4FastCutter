@@ -1,0 +1,6 @@
+d:\Github\VideoSplitter\MP4FastCutter GUI\obj\x64\Debug\mp4CutterMain.csprojAssemblyReference.cache
+d:\Github\VideoSplitter\MP4FastCutter GUI\obj\x64\Debug\mp4Cutter.AboutForm.resources
+d:\Github\VideoSplitter\MP4FastCutter GUI\obj\x64\Debug\mp4Cutter.MainForm.resources
+d:\Github\VideoSplitter\MP4FastCutter GUI\obj\x64\Debug\mp4Cutter.Properties.Resources.resources
+d:\Github\VideoSplitter\MP4FastCutter GUI\obj\x64\Debug\mp4CutterMain.csproj.GenerateResource.cache
+d:\Github\VideoSplitter\MP4FastCutter GUI\obj\x64\Debug\mp4CutterMain.csproj.CoreCompileInputs.cache
