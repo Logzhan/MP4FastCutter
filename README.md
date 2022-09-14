@@ -1,4 +1,4 @@
-# Video Splitter
+# Video Fast Splitter
 
 ## Features:
 - Use ffmpeg
