@@ -7,3 +7,9 @@ E:\Develop\mp4Cutter 1.0.0\UserControlsBar\bin\Release\UserControls.pdb
 E:\Develop\mp4Cutter 1.0.0\UserControlsBar\obj\Release\UserControls.csproj.CoreCompileInputs.cache
 E:\Develop\mp4Cutter 1.0.0\UserControlsBar\obj\Release\UserControls.dll
 E:\Develop\mp4Cutter 1.0.0\UserControlsBar\obj\Release\UserControls.pdb
+E:\Software Project\MP4FastCutter\1.Source Code\MP4FastCutter GUI\UserControlsBar\bin\Release\UserControls.dll
+E:\Software Project\MP4FastCutter\1.Source Code\MP4FastCutter GUI\UserControlsBar\bin\Release\UserControls.pdb
+E:\Software Project\MP4FastCutter\1.Source Code\MP4FastCutter GUI\UserControlsBar\obj\Release\UserControls.csproj.AssemblyReference.cache
+E:\Software Project\MP4FastCutter\1.Source Code\MP4FastCutter GUI\UserControlsBar\obj\Release\UserControls.csproj.CoreCompileInputs.cache
+E:\Software Project\MP4FastCutter\1.Source Code\MP4FastCutter GUI\UserControlsBar\obj\Release\UserControls.dll
+E:\Software Project\MP4FastCutter\1.Source Code\MP4FastCutter GUI\UserControlsBar\obj\Release\UserControls.pdb

@@ -182,35 +182,27 @@ namespace mp4Cutter
         public MainForm()
         {
             // 锁定界面显示DPI
-            ignoreDPI();
-            // 初始化系统组件
+            //ignoreDPI();
+
             InitializeComponent();
 
+            /* Initialize the vlc player. */
             string pluginPath = System.Environment.CurrentDirectory + "\\vlc\\plugins\\";
             vlcPlayer = new VlcPlayer(pluginPath);
-            IntPtr render_wnd = this.panel1.Handle;
-            vlcPlayer.SetRenderWindow((int)render_wnd);
+            /* Using panel1 for vlc to render video. */
+            IntPtr rendWnd = this.panel1.Handle;
+            vlcPlayer.SetRenderWindow((int)rendWnd);
+
+            vlcPlaying = false;
 
             tbVideoTime.Text = "00:00:00/00:00:00";
 
-            vlcPlaying = false;
-            //isPause = false;
             core_count = Environment.ProcessorCount;
             textBox_cores.Text = "ProcessorCount = " + core_count.ToString();
             textBox_srun.Text = core_count.ToString();
+
             this.Load += delegate
             {
-
-                /*
-                Timer timerShow = new Timer();
-                timerShow.Interval = 1000;
-                timerShow.Start();
-
-                timerShow.Tick += delegate
-                {                    
-                };
-                */
-
                 //Timer
                 Timer timer = new Timer();
                 timer.Interval = 10000;
@@ -452,7 +444,6 @@ namespace mp4Cutter
             int dpi_x = GetDeviceCaps(screenDC, /*DeviceCap.*/LOGPIXELSX);
             int dpi_y = GetDeviceCaps(screenDC, /*DeviceCap.*/LOGPIXELSY);
             ReleaseDC(IntPtr.Zero, screenDC);
-
             return dpi_x;
         }
 
