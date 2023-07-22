@@ -87,3 +87,18 @@ E:\Software Project\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Releas
 E:\Software Project\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\mp4CutterMain.csproj.CopyComplete
 E:\Software Project\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\VideoSplitter.exe
 E:\Software Project\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\VideoSplitter.pdb
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\bin\x64\Release\VideoSplitter.exe.config
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\bin\x64\Release\VideoSplitter.exe
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\bin\x64\Release\VideoSplitter.pdb
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\bin\x64\Release\SkinForm.dll
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\bin\x64\Release\UserControls.dll
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\bin\x64\Release\UserControls.pdb
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\mp4CutterMain.csproj.AssemblyReference.cache
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\mp4Cutter.AboutForm.resources
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\mp4Cutter.MainForm.resources
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\mp4Cutter.Properties.Resources.resources
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\mp4CutterMain.csproj.GenerateResource.cache
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\mp4CutterMain.csproj.CoreCompileInputs.cache
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\mp4CutterMain.csproj.CopyComplete
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\VideoSplitter.exe
+E:\SoftwareProject\MP4FastCutter\1.Source Code\MP4FastCutter GUI\obj\x64\Release\VideoSplitter.pdb

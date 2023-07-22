@@ -181,10 +181,9 @@ namespace mp4Cutter
         /// </returns>
         public MainForm()
         {
-            // 锁定界面显示DPI
-            //ignoreDPI();
-
             InitializeComponent();
+
+            this.TopMost = false;
 
             /* Initialize the vlc player. */
             string pluginPath = System.Environment.CurrentDirectory + "\\vlc\\plugins\\";
@@ -244,7 +243,14 @@ namespace mp4Cutter
                         {
                             fn_name = filepath.Substring(fn_s, fn_e - fn_s);
                             fn_ext = filepath.Substring(fn_e + 1);
-                            xfilename = xfilepath + "\\" + fn_name + "-" + time_s + "-" + time_e + "." + fn_ext;
+                            // 这里判断是否要生成文件名带时间戳
+                            if (!this.checkBox_timestamp.Checked){
+                                xfilename = xfilepath + "\\" + fn_name + "." + fn_ext;
+                            }
+                            else {
+                                xfilename = xfilepath + "\\" + fn_name + "-" + time_s + "-" + time_e + "." + fn_ext;
+                            }
+                            
                         }
                         else
                         {
@@ -265,13 +271,17 @@ namespace mp4Cutter
                                 string logfile = Environment.CurrentDirectory + "\\ffmpeg-" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".log";
 
                                 string arg = cfg_ffmpeg;
+                                Console.WriteLine("cfg_ffmpeg" + cfg_ffmpeg);
+
                                 arg = arg.Replace("<ss>", ss);
                                 arg = arg.Replace("<t>", duration);
                                 arg = arg.Replace("<logfile>", "\"" + logfile + "\"");
                                 arg = arg.Replace("<input>", "\"" + filepath + "\"");
                                 arg = arg.Replace("<output>", "\"" + xfilename + "\"");
-                                //if (! this.checkBox_showproccess.Checked) { arg = arg + " -loglevel quiet"; }
-                               
+                                if (!this.checkBox_showproccess.Checked) { arg = arg + " -loglevel quiet"; }
+
+                                Console.WriteLine("cfg_ffmpeg arg" + arg);
+
                                 if (this.checkBox_showproccess.Checked) { xpid=startProcess("ffmpeg.exe", "", arg, ProcessWindowStyle.Normal, core_count);  }
                                 else { xpid=startProcess("ffmpeg.exe", "", arg, ProcessWindowStyle.Hidden, core_count); }
                                 
@@ -803,6 +813,9 @@ namespace mp4Cutter
                 this.checkBox_autoclear.Checked = bool.Parse(temp.ToString());
                 GetPrivateProfileString("options", "clear-log-exit", "true", temp, 1024, cfg_ini);
                 this.checkBox_exitclear.Checked = bool.Parse(temp.ToString());
+
+                GetPrivateProfileString("options", "output_file_timestamp", "true", temp, 1024, cfg_ini);
+                this.checkBox_timestamp.Checked = bool.Parse(temp.ToString());
             }
             /*
             else
@@ -1084,6 +1097,8 @@ namespace mp4Cutter
             WritePrivateProfileString("options", "show-proccess", this.checkBox_showproccess.Checked.ToString(), cfg_ini);
             WritePrivateProfileString("options", "clear-task-auto", this.checkBox_autoclear.Checked.ToString(), cfg_ini);
             WritePrivateProfileString("options", "clear-log-exit", this.checkBox_exitclear.Checked.ToString(), cfg_ini);
+            // 保存输出文件是否带时间戳
+            WritePrivateProfileString("options", "output_file_timestamp", this.checkBox_timestamp.Checked.ToString(), cfg_ini);
         }
 
         private void button_ClearLog_Click(object sender, EventArgs e)
